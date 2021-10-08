@@ -20,7 +20,6 @@ public class Phone
     private Long      id;
 
     @Enumerated( EnumType.STRING )
-
     @Column( nullable = false )
     private PhoneType type;
 
